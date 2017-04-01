@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zqamar.zainapplication">
+
+    <application
+        android:name=".ZainApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".ViewPagerActivity" />
+        <activity android:name=".DialogActivity" />
+        <activity android:name=".BaseActivity" />
+        <activity
+            android:name=".LaunchViewActivityA"
+            android:launchMode="standard" />
+        <activity
+            android:name=".LaunchViewActivityB"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".LaunchViewActivityC"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".LaunchViewActivityD"
+            android:launchMode="singleInstance" />
+        <activity android:name=".AnimationActivity"/>
+        <activity android:name=".AnimatorActivity"/>
+        <activity android:name=".ListviewDialogue"/>
+    </application>
+
+</manifest>
